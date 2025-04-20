@@ -55,13 +55,13 @@
       "value": "-PublicIP"
     },
     "parAzBastionEnabled": {
-      "value": true
+      "value": false
     },
     "parAzBastionName": {
       "value": "alz-bastion-swedencentral"
     },
     "parAzBastionSku": {
-      "value": "Standard"
+      "value": "Basic"
     },
     "parAzBastionTunneling": {
       "value": false
@@ -70,13 +70,13 @@
       "value": "nsg-AzureBastionSubnet-swedencentral"
     },
     "parDdosEnabled": {
-      "value": true
+      "value": false
     },
     "parDdosPlanName": {
       "value": "alz-ddos-plan-swedencentral"
     },
     "parAzFirewallEnabled": {
-      "value": true
+      "value": false
     },
     "parAzFirewallName": {
       "value": "alz-azfw-swedencentral"
@@ -112,7 +112,7 @@
       ]
     },
     "parAzFirewallDnsProxyEnabled": {
-      "value": true
+      "value": false
     },
     "parAzFirewallDnsServers": {
       "value": []
@@ -124,59 +124,22 @@
       "value": false
     },
     "parPrivateDnsZonesEnabled": {
-      "value": true
+      "value": false
     },
     "parPrivateDnsZones": {
       "value": []
     },
     "parVpnGatewayEnabled": {
-      "value": true
+      "value": false
     },
     "parVpnGatewayConfig": {
-      "value": {
-        "name": "alz-Vpn-Gateway",
-        "gatewayType": "Vpn",
-        "sku": "VpnGw1AZ",
-        "vpnType": "RouteBased",
-        "generation": "Generation1",
-        "enableBgp": false,
-        "activeActive": false,
-        "enableBgpRouteTranslationForNat": false,
-        "enableDnsForwarding": false,
-        "bgpPeeringAddress": "",
-        "bgpsettings": {
-          "asn": "65515",
-          "bgpPeeringAddress": "",
-          "peerWeight": "5"
-        },
-        "vpnClientConfiguration": {},
-        "ipConfigurationName": "vnetGatewayConfig",
-        "ipConfigurationActiveActiveName": "vnetGatewayConfig2"
-      }
+      "value": {}
     },
     "parExpressRouteGatewayEnabled": {
-      "value": true
+      "value": false
     },
     "parExpressRouteGatewayConfig": {
-      "value": {
-        "name": "alz-ExpressRoute-Gateway",
-        "gatewayType": "ExpressRoute",
-        "sku": "ErGw1Az",
-        "vpnType": "RouteBased",
-        "generation": "None",
-        "enableBgp": false,
-        "activeActive": false,
-        "enableBgpRouteTranslationForNat": false,
-        "enableDnsForwarding": false,
-        "bgpPeeringAddress": "",
-        "bgpsettings": {
-          "asn": "65515",
-          "bgpPeeringAddress": "",
-          "peerWeight": "5"
-        },
-        "ipConfigurationName": "vnetGatewayConfig",
-        "ipConfigurationActiveActiveName": "vnetGatewayConfig2"
-      }
+      "value": {}
     },
     "parTags": {
       "value": {

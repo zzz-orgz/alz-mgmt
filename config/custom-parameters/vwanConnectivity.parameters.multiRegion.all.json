@@ -9,7 +9,7 @@
       "value": "alz"
     },
     "parVirtualHubEnabled": {
-      "value": true
+      "value": false
     },
     "parVirtualWanName": {
       "value": "alz-vwan-swedencentral"
@@ -41,9 +41,9 @@
     "parVirtualWanHubs": {
       "value": [
         {
-          "parVpnGatewayEnabled": true,
-          "parExpressRouteGatewayEnabled": true,
-          "parAzFirewallEnabled": true,
+          "parVpnGatewayEnabled": false,
+          "parExpressRouteGatewayEnabled": false,
+          "parAzFirewallEnabled": false,
           "parVirtualHubAddressPrefix": "10.100.0.0/23",
           "parHubLocation": "swedencentral",
           "parHubRoutingPreference": "ExpressRoute",
@@ -51,7 +51,7 @@
           "parVirtualHubRoutingIntentDestinations": [],
           "parAzFirewallDnsServers": [],
           "parAzFirewallIntelMode": "Alert",
-          "parAzFirewallDnsProxyEnabled": true,
+          "parAzFirewallDnsProxyEnabled": false,
           "parAzFirewallTier": "Standard",
           "parAzFirewallAvailabilityZones": [
             "1",
@@ -60,9 +60,9 @@
           ]
         },
         {
-          "parVpnGatewayEnabled": true,
-          "parExpressRouteGatewayEnabled": true,
-          "parAzFirewallEnabled": true,
+          "parVpnGatewayEnabled": false,
+          "parExpressRouteGatewayEnabled": false,
+          "parAzFirewallEnabled": false,
           "parVirtualHubAddressPrefix": "10.200.0.0/23",
           "parHubLocation": "",
           "parHubRoutingPreference": "ExpressRoute",
@@ -70,7 +70,7 @@
           "parVirtualHubRoutingIntentDestinations": [],
           "parAzFirewallDnsServers": [],
           "parAzFirewallIntelMode": "Alert",
-          "parAzFirewallDnsProxyEnabled": true,
+          "parAzFirewallDnsProxyEnabled": false,
           "parAzFirewallTier": "Standard",
           "parAzFirewallAvailabilityZones": [
             "1",
@@ -87,13 +87,13 @@
       "value": 1
     },
     "parDdosEnabled": {
-      "value": true
+      "value": false
     },
     "parDdosPlanName": {
       "value": "alz-ddos-plan-swedencentral"
     },
     "parPrivateDnsZonesEnabled": {
-      "value": true
+      "value": false
     },
     "parPrivateDnsZones": {
       "value": []
