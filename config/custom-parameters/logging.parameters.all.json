@@ -12,7 +12,7 @@
       "value": "Free"
     },
     "parLogAnalyticsWorkspaceCapacityReservationLevel": {
-      "value": 0
+      "value": 100
     },
     "parLogAnalyticsWorkspaceLogRetentionInDays": {
       "value": 30
