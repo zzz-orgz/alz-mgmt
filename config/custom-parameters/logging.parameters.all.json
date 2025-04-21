@@ -9,7 +9,7 @@
       "value": "swedencentral"
     },
     "parLogAnalyticsWorkspaceSkuName": {
-      "value": "Free"
+      "value": "PerGB2018"
     },
     "parLogAnalyticsWorkspaceCapacityReservationLevel": {
       "value": 100
