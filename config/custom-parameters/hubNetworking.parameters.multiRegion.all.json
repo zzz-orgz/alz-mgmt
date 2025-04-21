@@ -98,7 +98,7 @@
       "value": "-PublicIP"
     },
     "parAzBastionEnabled": {
-      "value": true
+      "value": false
     },
     "parAzBastionEnabledSecondaryLocation": {
       "value": false
@@ -110,10 +110,10 @@
       "value": "alz-bastion-"
     },
     "parAzBastionSku": {
-      "value": "Standard"
+      "value": "Basic"
     },
     "parAzBastionSkuSecondaryLocation": {
-      "value": "Standard"
+      "value": "Basic"
     },
     "parAzBastionTunneling": {
       "value": false
@@ -128,19 +128,19 @@
       "value": "nsg-AzureBastionSubnet-"
     },
     "parDdosEnabled": {
-      "value": true
+      "value": false
     },
     "parDdosPlanName": {
       "value": "alz-ddos-plan-swedencentral"
     },
     "parDdosEnabledSecondaryLocation": {
-      "value": true
+      "value": false
     },
     "parDdosPlanNameSecondaryLocation": {
       "value": "alz-ddos-plan-"
     },
     "parAzFirewallEnabled": {
-      "value": true
+      "value": false
     },
     "parAzFirewallName": {
       "value": "alz-azfw-swedencentral"
@@ -162,7 +162,7 @@
       ]
     },
     "parAzFirewallEnabledSecondaryLocation": {
-      "value": true
+      "value": false
     },
     "parAzFirewallNameSecondaryLocation": {
       "value": "alz-azfw-"
@@ -200,7 +200,7 @@
       "value": []
     },
     "parAzFirewallDnsProxyEnabled": {
-      "value": true
+      "value": false
     },
     "parAzFirewallDnsServers": {
       "value": []
@@ -212,7 +212,7 @@
       "value": false
     },
     "parAzFirewallDnsProxyEnabledSecondaryLocation": {
-      "value": true
+      "value": false
     },
     "parAzFirewallDnsServersSecondaryLocation": {
       "value": []
@@ -224,106 +224,34 @@
       "value": false
     },
     "parPrivateDnsZonesEnabled": {
-      "value": true
+      "value": false
     },
     "parPrivateDnsZones": {
       "value": []
     },
     "parVpnGatewayEnabled": {
-      "value": true
+      "value": false
     },
     "parVpnGatewayEnabledSecondaryLocation": {
-      "value": true
+      "value": false
     },
     "parVpnGatewayConfig": {
-      "value": {
-        "name": "alz-vpn-gateway",
-        "gatewayType": "Vpn",
-        "sku": "VpnGw1AZ",
-        "vpnType": "RouteBased",
-        "generation": "Generation1",
-        "enableBgp": false,
-        "activeActive": false,
-        "enableBgpRouteTranslationForNat": false,
-        "enableDnsForwarding": false,
-        "bgpPeeringAddress": "",
-        "bgpsettings": {
-          "asn": "65515",
-          "bgpPeeringAddress": "",
-          "peerWeight": "5"
-        },
-        "vpnClientConfiguration": {},
-        "ipConfigurationName": "vnetGatewayConfig",
-        "ipConfigurationActiveActiveName": "vnetGatewayConfig2"
-      }
+      "value": {}
     },
     "parVpnGatewayConfigSecondaryLocation": {
-      "value": {
-        "name": "alz-vpn-gateway-secondary",
-        "gatewayType": "Vpn",
-        "sku": "VpnGw1AZ",
-        "vpnType": "RouteBased",
-        "generation": "Generation1",
-        "enableBgp": false,
-        "activeActive": false,
-        "enableBgpRouteTranslationForNat": false,
-        "enableDnsForwarding": false,
-        "bgpPeeringAddress": "",
-        "bgpsettings": {
-          "asn": "65515",
-          "bgpPeeringAddress": "",
-          "peerWeight": "5"
-        },
-        "vpnClientConfiguration": {},
-        "ipConfigurationName": "vnetGatewayConfig",
-        "ipConfigurationActiveActiveName": "vnetGatewayConfig2"
-      }
+      "value": {}
     },
     "parExpressRouteGatewayEnabled": {
-      "value": true
+      "value": false
     },
     "parExpressRouteGatewayConfig": {
-      "value": {
-        "name": "alz-expressroute-gateway",
-        "gatewayType": "ExpressRoute",
-        "sku": "ErGw1Az",
-        "vpnType": "RouteBased",
-        "generation": "None",
-        "enableBgp": false,
-        "activeActive": false,
-        "enableBgpRouteTranslationForNat": false,
-        "enableDnsForwarding": false,
-        "bgpPeeringAddress": "",
-        "bgpsettings": {
-          "asn": "65515",
-          "bgpPeeringAddress": "",
-          "peerWeight": "5"
-        },
-        "ipConfigurationName": "vnetGatewayConfig",
-        "ipConfigurationActiveActiveName": "vnetGatewayConfig2"
-      }
+      "value": {}
     },
     "parExpressRouteGatewayEnabledSecondaryLocation": {
-      "value": true
+      "value": false
     },
     "parExpressRouteGatewayConfigSecondaryLocation": {
-      "value": {
-        "name": "alz-expressroute-gateway-secondary",
-        "gatewayType": "ExpressRoute",
-        "sku": "ErGw1Az",
-        "vpnType": "RouteBased",
-        "generation": "None",
-        "enableBgp": false,
-        "activeActive": false,
-        "enableBgpRouteTranslationForNat": false,
-        "enableDnsForwarding": false,
-        "bgpPeeringAddress": "",
-        "bgpsettings": {
-          "asn": "65515",
-          "bgpPeeringAddress": "",
-          "peerWeight": "5"
-        }
-      }
+      "value": {}
     },
     "parTags": {
       "value": {
